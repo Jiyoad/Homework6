@@ -1,0 +1,123 @@
+
+html, body {
+    height: 100%;
+}
+
+.body{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+.col-md-1, .col-md-2, .col-md-9 {
+    padding: 0;
+  }
+  
+
+[class*="col-"] {
+    padding-top: 15px;
+
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+.cityTitle{
+  
+}
+
+.aside input[type = text]{
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 78%;
+    background: #f1f1f1;
+}
+
+.aside{
+  margin-left: 5%;
+}
+
+.icon-img{
+  width: 45px;
+  height: 45px;
+}
+
+.rHeader{
+  color: white;
+  text-shadow: 2px 2px 4px rgb(0, 109, 172);
+}
+
+.current-details{
+  color: white;
+text-shadow: 2px 2px 4px rgb(0, 109, 172);
+}
+
+.fHeader{
+  margin: 20px;
+}
+
+.card{
+  float: left;
+  width: 20%;
+  border-radius: 10%;
+  margin: 5%;
+  vertical-align: middle;
+  background-image: radial-gradient(rgb(151, 225, 255), rgb(0, 140, 255));
+  box-shadow: 2px 2px 8px rgb(0, 153, 255);
+}
+
+.card-text{
+height: 100%;
+color: white;
+text-shadow: 2px 2px 4px rgb(0, 109, 172);
+}
+
+
+.current-details{
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.weather{
+  color: white;
+text-shadow: 2px 2px 4px rgb(0, 109, 172);
+}
+
+.aside button {
+    float: left;
+    width: 18%;
+    padding: 15px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.aside button:hover {
+    background-color: blue;
+}
+.aside::after {
+    content: "";
+    clear: both;
+    display: grid;
+}
+
+
+
+  @media screen and (max-width: 900px) {
+    .col-12  {
+      
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .col-12  {
+
+    }
+  }
+
+
